@@ -23,6 +23,13 @@
   box-sizing: border-box;
 }
 
+input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  opacity: 1
+}
+
 h1, h2, h3 {
   font-family: var(--ff-serif);
 }
@@ -349,6 +356,7 @@ textarea:focus {
 .btn-send {
   font-size: 1.2rem;
   background-color: var(--clr-alert);
+  -webkit-appearance: none;
 }
 
 
