@@ -1,0 +1,47 @@
+.about .half-width {
+  padding: 0 50px;
+}
+
+.photo {
+  width: 200px;
+  border: 10px solid white;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.name {
+  font-size: 2.5rem;
+  font-weight: bold;  
+  letter-spacing: .05rem;
+}
+
+.title {
+  font-size: 1.3rem;
+}
+
+.credential {
+  padding-top: 2rem;
+  font-family: $ff-sans;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: bold;  
+  letter-spacing: .05rem;
+}
+
+.about .item {
+  margin-top: 5px;
+}
+
+.stat {
+  padding-bottom: 2rem;
+}
+
+.num {
+  color: $clr-alert;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.desc {
+  font-size: 2rem;
+}

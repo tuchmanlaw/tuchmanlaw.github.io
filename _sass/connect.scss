@@ -1,0 +1,64 @@
+.connect .half-width {
+  align-self: start;
+}
+
+.connect-details {
+  padding-right: 20px;
+}
+
+.connect-heading, .connect-info {
+  color: $clr-bg-light;
+  font-size: 1.4rem;
+}
+
+.connect-heading {
+  font-weight: bold;
+  letter-spacing: .05rem;
+  margin-top: 1.5rem;
+  margin-bottom: .2rem;
+  // align-content: flex-start;
+}
+
+.connect-social {
+  color: $clr-text-light;
+  font-size: 3rem;
+  margin-top: 20px;
+}
+
+.connect-form .form-control {
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 1.3rem;
+}
+
+.connect-form input[type='text'],
+.connect-form input[type='email'] {
+  height: 2rem;
+  border: 0;  
+  font-size: 1.3rem;
+  padding: 3px;
+  width: 100%;
+}
+
+.connect-form input:focus {
+  outline: none;
+}
+
+textarea {
+  font-size: 1.3rem;
+  width: 100%;
+  padding: 3px;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+
+.btn-send {
+  font-size: 1.2rem;
+  background-color: $clr-alert;
+  -webkit-appearance: none;
+}

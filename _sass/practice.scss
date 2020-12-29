@@ -1,0 +1,26 @@
+.practice-area {
+  display: flex;  
+  flex-direction: row;
+  align-content: flex-start;
+  margin-top: 2rem;
+}
+
+// https://stackoverflow.com/questions/4861224/how-to-use-css-to-surround-a-number-with-a-circle
+.practice-symbol {
+  margin: 0 20px 20px 0;
+  flex-basis: 0;
+  width: 70px;
+  height: 70px;
+}
+
+.practice-title {
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-bottom: .5rem;
+}
+
+.practice-info {
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+}

@@ -1,184 +1,142 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Law Office of Ido Tuchman</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
-  <link rel="stylesheet" href="./css/styles.css">
-</head>
+---
+layout: evergreen
+title: Law Office of Ido Tuchman
+---
+<!-- HOME SECTION -->
+<div class="full-width bg-light">
+  <div class="container">
+    <section id="home" class="home">
+      <div class="half-width">
+        <h2 class="slogan">You have amazing ideas.</h2>
+        <h2 class="slogan">I can help protect them.</h2>
+        <a href="#connect" class="btn btn-primary cta-btn">Let's Connect</a>
+      </div>
+      <div class="half-width home-img">
+        <img id="patent-bg" src="/assets/images/patent-bg.png" alt="">
+        <img id="patent" src="/assets/images/bicycle.png" alt="Patent Image">
+      </div>
+    </section>
+  </div>
+</div>
 
-<body>
-  <header class="header bg-light">
-    <nav>
-      <a href="#home"><img class="logo" src="./images/logo.png" alt="TuchmanLaw"></a>
-      <div class="hamburger" onclick="hamburgerMenuClicked()"><i class="hamburger fas fa-bars" ></i></div>
-      <div id="main-nav" class="main-nav">
-        <div class="contact-bar">  
-          <ul>
-            <li><a href="tel:760-916-1994" target="_self"><i class="fas fa-phone-alt"></i>760-916-1994</a></li>
-            <li><a href="mailto: info@tuchmanlaw.com"><i class="fas fa-envelope"></i>info@tuchmanlaw.com</a></li>
-          </ul>
+<!-- ABOUT SECTION -->
+<div class="full-width bg-dark">
+  <div class="container">
+    <section id="about" class="about">
+      <div class="half-width">
+        <div class="center">
+          <img src="/assets/images/photo.jpg" alt="Ido Tuchman Photo" class="photo">
+          <p class="name">Ido Tuchman</p>
+          <p class="title">Attorney at Law</p>
         </div>
-        <ul class="main-menu">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#practice">Practice Areas</a></li>
-          <li><a href="#connect">Contact</a></li>
-          <!-- <li><a href="#blog">Blog</a></li> -->
+        <p class="credential">Education</p>
+        <ul>
+          <li class="item">Juris Doctorate, UNH School of Law</li>
+          <li class="item">BS Electrical Engineering, SUNY at Stony Brook</li>
+        </ul>
+        <p class="credential">Bar Admissions</p>
+        <ul>
+          <li class="item">California</li>
+          <li class="item">New York</li>
+          <li class="item">Colorado</li>
+          <li class="item">U.S. Patent and Trademark Office</li>
         </ul>
       </div>
-    </nav>    
-  </header>
-
-  <!-- HOME SECTION -->
-  <div class="full-width bg-light">
-    <div class="container">
-      <section id="home" class="home">
-        <div class="half-width">
-          <h2 class="slogan">You have amazing ideas.</h2>
-          <h2 class="slogan">I can help protect them.</h2>
-          <a href="#connect" class="btn btn-primary cta-btn">Let's Connect</a>
+      <div class="half-width">
+        <div class="stat">
+          <p class="num">20+</p>
+          <p class="desc">years of experience</p>
         </div>
-        <div class="half-width home-img">
-          <img id="patent-bg" src="./images/bicycle-bg.png" alt="">
-          <img id="patent" src="./images/bicycle.png" alt="Patent Image">
+        <div class="stat">
+          <p class="num">600+</p>
+          <p class="desc">issued patents</p>
         </div>
-      </section>
-    </div>
+        <div class="stat">
+          <p class="num">100%</p>
+          <p class="desc">dedicated to client success</p>
+        </div>
+      </div>
+    </section>      
   </div>
+</div>
 
-  <!-- ABOUT SECTION -->
-  <div class="full-width bg-dark">
-    <div class="container">
-      <section id="about" class="about">
-        <div class="half-width">
-          <div class="center">
-            <img src="./images/photo.jpg" alt="Ido Tuchman Photo" class="photo">
-            <p class="name">Ido Tuchman</p>
-            <p class="title">Attorney at Law</p>
-          </div>
-          <p class="credential">Education</p>
-          <ul>
-            <li class="item">Juris Doctorate, UNH School of Law</li>
-            <li class="item">BS Electrical Engineering, SUNY at Stony Brook</li>
-          </ul>
-          <p class="credential">Bar Admissions</p>
-          <ul>
-            <li class="item">California</li>
-            <li class="item">New York</li>
-            <li class="item">Colorado</li>
-            <li class="item">U.S. Patent and Trademark Office</li>
-          </ul>
-        </div>
-        <div class="half-width">
-          <div class="stat">
-            <p class="num">20+</p>
-            <p class="desc">years of experience</p>
-          </div>
-          <div class="stat">
-            <p class="num">600+</p>
-            <p class="desc">issued patents</p>
-          </div>
-          <div class="stat">
-            <p class="num">100%</p>
-            <p class="desc">dedicated to client success</p>
+<!-- PRACTICE SECTION -->
+<div class="full-width bg-light">
+  <div class="container">
+    <section id="practice" class="practice">
+      <div class="practice-areas">
+        <h2 class="full-width">Practice Areas</h2>
+        <div class="practice-area">
+          <img src="/assets/images/icon-P.png" alt="" class="practice-symbol">
+          <div>
+            <p class="practice-title">Patents</p>
+            <p class="practice-info">I can help you obtain patent protection, stop others from using your patented technology, and defend against patent infringement claims.</p>
           </div>
         </div>
-      </section>      
-    </div>
+        <div class="practice-area">            
+          <img src="/assets/images/icon-TM.png" alt="" class="practice-symbol">
+          <div>
+            <p class="practice-title">Trademarks</p>
+            <p class="practice-info">Need to protect your band? I can assist. The firm can help you obtain and preserve trademarks. We conduct trademark clearance searches, evaluate the availability of proposed marks, and prosecute trademark applications.</p>
+          </div>
+        </div>
+        <div class="practice-area">
+          <img src="/assets/images/icon-C.png" alt="" class="practice-symbol">
+          <div>
+            <p class="practice-title">Copyrights</p>
+            <p class="practice-info">I can help register copyrightable works, stop others from copying, distributing, modifying, or displaying these works without your permission, and defend against copyright infringement claims.</p>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
-  
-  <!-- PRACTICE SECTION -->
-  <div class="full-width bg-light">
-    <div class="container">
-      <section id="practice" class="practice">
-        <div class="practice-areas">
-          <h2 class="full-width">Practice Areas</h2>
-          <div class="practice-area">
-            <img src="./images/icon-P.png" alt="" class="practice-symbol">
-            <div>
-              <p class="practice-title">Patents</p>
-              <p class="practice-info">I can help you obtain patent protection, stop others from using your patented technology, and defend against patent infringement claims.</p>
+</div>
+
+<!-- CONNECT SECTION -->  
+<div class="full-width bg-dark">
+  <div class="container">
+    <section id="connect" class="connect">
+      <h2 class="full-width">Let's Connect</h2>
+      <div class="half-width connect-details">
+        <p class="connect-heading">Telephone</p>
+        <a class="connect-info" href="tel:760-916-1994" target="_self">760-916-1994</a>
+        <p class="connect-heading">Email</p>
+        <a class="connect-info" href="mailto: info@tuchmanlaw.com">info@tuchmanlaw.com</a>
+        <p class="connect-heading">Address</p>
+        <div class="connect-info">
+          <p>Law Office of Ido Tuchman</p>
+          <p>P.O. Box 765</p>
+          <p>Cardiff, CA 92007</p>
+        </div>          
+        <a href="https://www.linkedin.com/in/idotuchman/" target="_blank"><i class="connect-social fab fa-linkedin"></i></a>
+      </div>
+      <div class="half-width">
+        <div class="connect-form">
+          <!-- https://www.freecodecamp.org/news/handling-static-forms-the-client-side-way/ -->
+          <form action="https://formsubmit.co/contactform@tuchmanlaw.com" method="POST">           
+            <input type="hidden" name="_subject" value="Tuchmanlaw Contact Form">
+            <input type="hidden" name="_next" value="https://tuchmanlaw.com/thankyou.html">
+            <input type="hidden" name="_captcha" value="false">
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input id="name" type="text" name="name" required>
             </div>
-          </div>
-          <div class="practice-area">            
-            <img src="./images/icon-TM.png" alt="" class="practice-symbol">
-            <div>
-              <p class="practice-title">Trademarks</p>
-              <p class="practice-info">Need to protect your band? I can assist. The firm can help you obtain and preserve trademarks. We conduct trademark clearance searches, evaluate the availability of proposed marks, and prosecute trademark applications.</p>
+            <div class="form-control">                
+              <label for="company">Company Name</label>
+              <input id="company" type="text" name="company">
             </div>
-          </div>
-          <div class="practice-area">
-            <img src="./images/icon-C.png" alt="" class="practice-symbol">
-            <div>
-              <p class="practice-title">Copyrights</p>
-              <p class="practice-info">I can help register copyrightable works, stop others from copying, distributing, modifying, or displaying these works without your permission, and defend against copyright infringement claims.</p>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input id="email" type="email" name="_replyto" required>
             </div>
-          </div>
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" cols="30" rows="6" required></textarea>
+            </div>
+            <input type="submit" value="Send" class="btn btn-primary">
+          </form>
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
   </div>
-
-  <!-- CONNECT SECTION -->  
-  <div class="full-width bg-dark">
-    <div class="container">
-      <section id="connect" class="connect">
-        <h2 class="full-width">Let's Connect</h2>
-        <div class="half-width connect-details">
-          <p class="connect-heading">Telephone</p>
-          <a class="connect-info" href="tel:760-916-1994" target="_self">760-916-1994</a>
-          <p class="connect-heading">Email</p>
-          <a class="connect-info" href="mailto: info@tuchmanlaw.com">info@tuchmanlaw.com</a>
-          <p class="connect-heading">Address</p>
-          <div class="connect-info">
-            <p>Law Office of Ido Tuchman</p>
-            <p>P.O. Box 765</p>
-            <p>Cardiff, CA 92007</p>
-          </div>          
-          <a href="https://www.linkedin.com/in/idotuchman/" target="_blank"><i class="connect-social fab fa-linkedin"></i></a>
-        </div>
-        <div class="half-width">
-          <div class="connect-form">
-            <!-- https://www.freecodecamp.org/news/handling-static-forms-the-client-side-way/ -->
-            <form action="https://formsubmit.co/contactform@tuchmanlaw.com" method="POST">           
-              <input type="hidden" name="_subject" value="Tuchmanlaw Contact Form">
-              <input type="hidden" name="_next" value="https://tuchmanlaw.com/index.html">
-              <input type="hidden" name="_next" value="https://tuchmanlaw.com/index.html">
-              <input type="hidden" name="_captcha" value="false">
-              <div class="form-control">
-                <label for="name">Name</label>
-                <input id="name" type="text" name="name" required>
-              </div>
-              <div class="form-control">                
-                <label for="company">Company Name</label>
-                <input id="company" type="text" name="company">
-              </div>
-              <div class="form-control">
-                <label for="email">Email</label>
-                <input id="email" type="email" name="_replyto" required>
-              </div>
-              <div class="form-control">
-                <label for="message">Message</label>
-                <textarea id="message" name="message" cols="30" rows="6" required></textarea>
-              </div>
-              <input type="submit" value="Send" class="btn btn-primary">
-            </form>
-          </div>
-        </div>
-      </section>
-    </div>
-  </div>
-  
-  <!-- FOOTER SECTION -->  
-  <div class="full-width bg-dark">
-    <div class="container footer">
-      <p>&copy; 2002-2020 Law Office of Ido Tuchman</p>
-      <p>Attorney Advertising</p>
-    </div>
-  </div>
-
-  <script src="./js/scripts.js"></script>
-</body>
-</html>
+</div>

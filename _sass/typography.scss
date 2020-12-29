@@ -1,0 +1,14 @@
+body {
+  font-family: $ff-sans;
+  color: $clr-text-dark;
+  background-color: $clr-bg-light;
+}
+
+h1, h2, h3 {
+  font-family: $ff-serif;
+}
+
+h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}

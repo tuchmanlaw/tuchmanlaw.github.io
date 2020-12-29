@@ -1,0 +1,76 @@
+header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  max-width: 1100px;
+  position: relative;
+}
+
+img.logo {
+  width: 200px;
+  margin: 20px 10px 20px 0;
+  border: none;
+}
+
+.main-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-bottom: 0.8rem;
+}
+
+.hamburger {
+  display: none;
+}
+
+.contact-bar {
+  width: 550px;
+}
+
+.main-menu {
+  width: 550px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+nav ul li {
+  padding-left: 20px;
+}
+
+.main-nav a {
+  color: $clr-primary;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding-bottom: 2px;
+}
+
+.main-nav a:hover {
+  color: $clr-text-dark;
+  border-bottom: 2px solid $clr-text-dark;
+}
+
+.main-nav .contact-bar a {
+  color: $clr-accent;
+}
+
+.main-nav .contact-bar a:hover {
+  color: $clr-text-dark;
+}
+
+.contact-bar i {
+  margin-right: 10px;
+}

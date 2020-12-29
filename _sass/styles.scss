@@ -1,0 +1,535 @@
+// @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+// :root {  
+//   /* colors */
+//   --clr-text-dark: #444;
+//   --clr-text-light: #fff;
+//   --clr-primary: #6b7a8f;
+//   --clr-secondary: #dcc7aa;
+//   --clr-accent: #f7882f;
+//   --clr-alert: #f7c331;
+//   --clr-bg-light: #fff;
+//   --clr-bg-dark: #6b7a8f;
+
+//   /* fonts */
+//   --ff-serif: "Roboto Slab", serif;
+//   --ff-sans: "Roboto", sans-serif;
+// }
+
+// *, *::before, *::after {
+//   margin: 0;
+//   padding: 0;
+//   box-sizing: border-box;
+// }
+
+// input {
+//   -webkit-appearance: none;
+//   -moz-appearance: none;
+//   appearance: none;
+//   opacity: 1
+// }
+
+// h1, h2, h3 {
+//   font-family: var(--ff-serif);
+// }
+
+// h2 {
+//   font-size: 3rem;
+//   margin-bottom: 1rem;
+// }
+
+// a {
+//   text-decoration: none;
+// }
+
+// img {
+//   display: block;
+//   max-width: 100%;
+// }
+
+// ul {  
+//   list-style: none;
+// }
+
+// html {
+//   scroll-behavior: smooth;
+// }
+
+// body {
+//   font-family: var(--ff-sans);
+//   color: var(--clr-primary);
+//   background-color: var(--clr-bg-light);
+// }
+
+// .container {
+//   width: 90%;
+//   max-width: 1100px;
+//   margin: 0 auto;
+// }
+
+// .flex {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   height: 100%;
+// }
+
+// .btn {
+//   cursor: pointer;
+//   display: inline-block;
+//   border: 0;
+//   font-family: var(--ff-sans);
+//   text-decoration: none;
+//   font-size: 1.3rem;
+//   border-radius: 10px;
+//   padding: 10px 30px;
+//   background: var(--clr-accent);
+//   color: white;
+// }
+
+// .btn:hover {
+//   opacity: .9;
+// }
+
+// section {
+//   display: flex;
+//   padding: 6rem 0 50px 0;
+//   align-items: center;
+//   flex-wrap: wrap;
+// }
+
+/* NAVIGATION SECTION */
+// header {
+//   display: flex;
+//   justify-content: center;
+//   width: 100%;
+//   position: fixed;
+//   z-index: 100;
+// }
+
+// nav {
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: center;
+//   width: 90%;
+//   max-width: 1100px;
+//   position: relative;
+// }
+
+// img.logo {
+//   width: 200px;
+//   margin: 20px 10px 20px 0;
+//   border: none;
+// }
+
+// .main-nav {
+//   display: flex;
+//   flex-direction: column;
+//   align-items: flex-end;
+//   margin-bottom: 0.8rem;
+// }
+
+// .hamburger {
+//   display: none;
+// }
+
+// .contact-bar {
+//   width: 550px;
+// }
+
+// .main-menu {
+//   width: 550px;
+// }
+
+// nav ul {
+//   display: flex;
+//   list-style: none;
+//   justify-content: space-between;
+//   margin-top: 10px;
+// }
+
+// nav ul li {
+//   padding-left: 20px;
+// }
+
+// .main-nav a {
+//   color: var(--clr-primary);
+//   font-size: 1.2rem;
+//   font-weight: bold;
+//   padding-bottom: 2px;
+// }
+
+// .main-nav a:hover {
+//   color: var(--clr-text-dark);
+//   border-bottom: 2px solid var(--clr-text-dark);
+// }
+
+// .main-nav .contact-bar a {
+//   color: var(--clr-accent);
+// }
+
+// .main-nav .contact-bar a:hover {
+//   color: var(--clr-text-dark);
+// }
+
+// .contact-bar i {
+//   margin-right: 10px;
+// }
+
+/* HOME SECTION */
+// .home {
+//   height: 100vh;
+//   min-height: 500px;
+// }
+
+// .slogan {
+//   font-size: 3.3rem;
+//   margin-bottom: 30px;
+// }
+
+// .cta-btn {
+//   font-size: 1.5rem;
+// }
+
+// .home-img {
+//   display: flex;
+//   align-items: center;
+//   /* background: url("/images/bi-bg.png") no-repeat center center/cover;
+//   background-size: contain; */
+//   height: 100%;
+//   position: relative;
+// }
+
+// #patent-bg {
+//   position: absolute;
+//   /* right: 0px; */
+//   z-index: 1;
+//   /* top: 0px; */
+// }
+
+// #patent {
+//   position: absolute;
+//   /* left: 0px; */
+//   z-index: 2;
+//   /* top: 0px; */
+// }
+
+/* ABOUT SECTION */
+// .about .half-width {
+//   padding: 0 50px;
+// }
+
+// .photo {
+//   width: 200px;
+//   border: 10px solid white;
+//   border-radius: 50%;
+//   margin: 10px;
+// }
+
+// .name {
+//   font-size: 2.5rem;
+//   font-weight: bold;  
+//   letter-spacing: .05rem;
+// }
+
+// .title {
+//   font-size: 1.3rem;
+// }
+
+// .credential {
+//   padding-top: 2rem;
+//   font-family: var(--ff-sans);
+//   font-size: 1.2rem;
+//   text-transform: uppercase;
+//   font-weight: bold;  
+//   letter-spacing: .05rem;
+// }
+
+// .about .item {
+//   margin-top: 5px;
+// }
+
+// .stat {
+//   padding-bottom: 2rem;
+// }
+
+// .num {
+//   color: var(--clr-alert);
+//   font-size: 4rem;
+//   font-weight: bold;
+// }
+
+// .desc {
+//   font-size: 2rem;
+// }
+
+/* PRACTICE SECTION */
+// .practice-area {
+//   display: flex;  
+//   flex-direction: row;
+//   align-content: flex-start;
+//   margin-top: 2rem;
+// }
+
+// /* https://stackoverflow.com/questions/4861224/how-to-use-css-to-surround-a-number-with-a-circle */
+// .practice-symbol {
+//   margin: 0 20px 20px 0;
+//   flex-basis: 0;
+//   width: 70px;
+//   height: 70px;
+// }
+
+// .practice-title {
+//   text-transform: uppercase;
+//   font-size: 1.6rem;
+//   font-weight: bold;
+//   margin-bottom: .5rem;
+// }
+
+// .practice-info {
+//   font-size: 1.6rem;
+//   margin-bottom: 2rem;
+// }
+
+
+/* CONNECT SECTION */
+// .connect .half-width {
+//   align-self: start;
+// }
+
+// .connect-details {
+//   padding-right: 20px;
+// }
+
+// .connect-heading, .connect-info {
+//   color: var(--clr-bg-light);
+//   font-size: 1.4rem;
+// }
+
+// .connect-heading {
+//   font-weight: bold;
+//   letter-spacing: .05rem;
+//   margin-top: 1.5rem;
+//   margin-bottom: .2rem;
+//   /* align-content: flex-start; */
+// }
+
+// .connect-social {
+//   color: var(--clr-text-light);
+//   font-size: 3rem;
+//   margin-top: 20px;
+// }
+
+// .connect-form .form-control {
+//   margin-bottom: 20px;
+// }
+
+// label {
+//   font-size: 1.3rem;
+// }
+
+// .connect-form input[type='text'],
+// .connect-form input[type='email'] {
+//   height: 2rem;
+//   border: 0;  
+//   font-size: 1.3rem;
+//   padding: 3px;
+//   width: 100%;
+// }
+
+// .connect-form input:focus {
+//   outline: none;
+// }
+
+// textarea {
+//   font-size: 1.3rem;
+//   width: 100%;
+//   padding: 3px;
+// }
+
+// textarea:focus {
+//   outline: none;
+// }
+
+
+// .btn-send {
+//   font-size: 1.2rem;
+//   background-color: var(--clr-alert);
+//   -webkit-appearance: none;
+// }
+
+
+/* FOOTER SECTION */
+// .footer {
+//   padding-bottom: 60px;
+// }
+
+/* RESPONSIVE CONTROL */
+// @media (max-width: 900px) {
+//   nav {
+//     flex-direction: column;
+//   }
+
+//   img.logo {
+//     width: 130px;
+//     margin: 10px 0;
+//   }
+
+//   .slogan {
+//     font-size: 2.5rem;
+//   }
+  
+//   section {
+//     padding-top: 10rem;
+//   }
+
+//   /* ABOUT SECTION */
+//   .name {
+//     font-size: 1.5rem;
+//   }
+
+// }
+
+// /* CELL PHONES */
+// @media (max-width: 500px) {
+
+//   .half-width {
+//     flex: 1 100%;
+//   }
+
+//   h2 {
+//     font-size: 2rem;
+//   }
+//   section {
+//     padding-top: 6rem;
+//   }
+
+//   nav {
+//     flex-direction: row;
+//     justify-content: space-between;
+//   }
+
+//   img.logo {
+//     width: 150px;
+//   }
+  
+//   .hamburger {
+//     display: block;
+//     color: var(--clr-primary);
+//     font-size: 2rem;
+//   }
+
+//   .main-nav {
+//     display: none;
+//     align-items: flex-start;
+//     position: absolute;
+//     top: 50px;
+//     left: -22px;
+//     width: 100%;
+//     padding: 1.5rem;
+//     margin: 0;
+//     background-color: rgba(255, 255, 255, 0.9);
+//   }
+
+//   nav ul {
+//     flex-direction: column;
+//   }
+  
+//   nav ul li {
+//     margin-top: 0.5rem;
+//   }
+
+//   .contact-bar {
+//     flex-direction: column;
+//   }
+
+//   .main-menu {
+//     flex-direction: column;
+//   }
+
+//   .main-nav li {
+//     padding: 0;
+//   }
+    
+//   /* HOME SECTION */  
+//   .home {
+//     height: 100%;
+//   }
+//   .home-img {
+//     display: none;
+//   }
+  
+//   /* ABOUT SECTION */
+//   .name {
+//     font-size: 1.5rem;
+//   }
+
+//   /* PRACTICE SECTION */
+//   .practice-area {
+//     margin-bottom: 1.2rem;
+//   }
+
+//   .practice-area img {
+//     margin: 0 10px 0 0;
+//     width: 50px;
+//     height: 50px;
+//   }
+
+//   .practice-title {
+//     font-size: 1.2rem;
+//     margin-bottom: 0;
+//   }
+
+//   .practice-info {
+//     font-size: 0.8rem;
+//     margin: 0;
+//   }
+// }
+
+
+
+/* UTILS */
+// .show {
+//   display: block;
+// }
+
+// .bg-dark {
+//   color: var(--clr-text-light);
+//   background-color: var(--clr-bg-dark);
+// }
+
+// .bg-light {
+//   color: var(--clr-text-dark);
+//   background-color: var(--clr-bg-light);
+// }
+
+// .flex {
+//   display: flex;
+//   flex-direction: row;
+// }
+
+// .center {
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   width: 100%;
+// }
+
+// .full-width {
+//   flex: 1 100%;
+// }
+
+// .half-width {
+//   flex: 1 50%;
+  
+//   margin-bottom: 30px;
+// }
+
+// .one-third {
+//   flex: 1 33%
+// }
+
+// .two-third {
+//   flex: 1 66%
+// }

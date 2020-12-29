@@ -1,0 +1,120 @@
+@media (max-width: 900px) {
+  nav {
+    flex-direction: column;
+  }
+
+  img.logo {
+    width: 130px;
+    margin: 10px 0;
+  }
+
+  .slogan {
+    font-size: 2.5rem;
+  }
+  
+  section {
+    padding-top: 10rem;
+  }
+
+// ABOUT SECTION
+  .name {
+    font-size: 1.5rem;
+  }
+
+}
+
+// CELL PHONES
+@media (max-width: 500px) {
+
+  .half-width {
+    flex: 1 100%;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+  section {
+    padding-top: 6rem;
+  }
+
+  nav {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  img.logo {
+    width: 150px;
+  }
+  
+  .hamburger {
+    display: block;
+    color: $clr-primary;
+    font-size: 2rem;
+  }
+
+  .main-nav {
+    display: none;
+    align-items: flex-start;
+    position: absolute;
+    top: 50px;
+    left: -22px;
+    width: 100%;
+    padding: 1.5rem;
+    margin: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+  
+  nav ul li {
+    margin-top: 0.5rem;
+  }
+
+  .contact-bar {
+    flex-direction: column;
+  }
+
+  .main-menu {
+    flex-direction: column;
+  }
+
+  .main-nav li {
+    padding: 0;
+  }
+    
+  // HOME SECTION
+  .home {
+    height: 100%;
+  }
+  .home-img {
+    display: none;
+  }
+  
+  // ABOUT SECTION
+  .name {
+    font-size: 1.5rem;
+  }
+
+  // PRACTICE SECTION
+  .practice-area {
+    margin-bottom: 1.2rem;
+  }
+
+  .practice-area img {
+    margin: 0 10px 0 0;
+    width: 50px;
+    height: 50px;
+  }
+
+  .practice-title {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+  }
+
+  .practice-info {
+    font-size: 0.8rem;
+    margin: 0;
+  }
+}
