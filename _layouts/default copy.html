@@ -17,9 +17,12 @@
 </head>
 
 <body>
+  {% include navigation.html %}
 
-{{ content }}
+  {{ content }}    
+  
+  {% include footer.html %}
 
-<script src="/assets/js/hamburgerMenu.js"></script>
+  <script src="/assets/js/hamburgerMenu.js"></script>
 </body>
 </html>
