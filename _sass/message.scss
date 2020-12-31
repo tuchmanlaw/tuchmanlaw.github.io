@@ -23,7 +23,7 @@
   width: 50%;
 }
 
-@media (max-width: 900px) {
+@media (max-width: $bp-medium) {
   .message-large {
     font-size: 4rem;
   }
@@ -32,7 +32,7 @@
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: $bp-small) {
   message-large {
   font-size: 4rem;
   }

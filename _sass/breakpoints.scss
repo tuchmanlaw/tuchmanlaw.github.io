@@ -1,4 +1,4 @@
-@media (max-width: 900px) {
+@media (max-width: $bp-medium) {
   nav {
     flex-direction: column;
   }
@@ -24,7 +24,7 @@
 }
 
 // CELL PHONES
-@media (max-width: 500px) {
+@media (max-width: $bp-small) {
 
   .half-width {
     flex: 1 100%;
