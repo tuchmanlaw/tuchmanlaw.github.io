@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Law Office of Ido Tuchman
+title: TuchmanLaw - Law Office of Ido Tuchman
 email: info@tuchmanlaw.com
 description: > # this means to ignore newlines until "baseurl:"
-  An intellectual property solo law office in southern California. Ido Tuchman is a patent attorney admitted to practice before the U.S. Patent and Trademark Office. Practice areas include patents, trademarks, copyrights, and licensing.
+  An intellectual property law office in southern California. Ido Tuchman is a patent attorney admitted to practice in California, New York, and Colorado, and before the U.S. Patent and Trademark Office. Practice areas include patents, trademarks, copyrights, and licensing.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://tuchmanlaw.com" # the base hostname & protocol for your site
 # twitter_username: jekyllrb
