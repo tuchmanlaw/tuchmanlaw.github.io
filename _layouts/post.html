@@ -1,7 +1,43 @@
 ---
-layout: fullpage
+layout: default
 ---
-<h1>{{ page.title }}</h1>
-<p>{{ page.date | date_to_string }} - {{ page.author }}</p>
+{% include navigation.html %}
+<div class="full-width bg-light">
+  <div class="container">
+    <section>
+      <div class="blog-main">
+        {% if post.image %}
+          <img src="{{ page.image }}" alt="Blog Image" class="blog-img">
+        {% endif %}
+        <div class="blog-content">
+          <h1 class="title">{{ page.title }}</h1>
+          <p class="author">{{ page.date | date_to_string }} by {{ page.author }}</p>
+          {{ content }}
+        </div>
+        <div class="blog-sidebar">
+          <div class="side-section">
+            <p class="side-heading">Tags</p>
+            {% for tag in page.tags %}
+              <a href="" class="tag">{{ tag | capitalize }}</a>
+            {% endfor %}
+          </div>
+          <div class="side-section">
+              <form action="https://tuchmanlaw.us7.list-manage.com/subscribe/post?u=81494a1b618e4d3e058c5d00c&amp;id=1f476ca7ae" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                  <div class="form-control">
+                    <label  class="side-heading" for="mce-EMAIL">Subscribe to blog</label>
+                    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                  </div>
+                  <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                  <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_81494a1b618e4d3e058c5d00c_1f476ca7ae" tabindex="-1" value=""></div>
+                  <div class="form-control">
+                    <input class="btn btn-subscribe" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe">
+                  </div>
+              </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
 
-{{ content }}
+{% include footer.html %}

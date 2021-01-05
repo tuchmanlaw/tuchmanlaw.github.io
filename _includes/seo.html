@@ -1,14 +1,18 @@
 <!-- seo begin -->
 <title>TuchmanLaw | Law Office of Ido Tuchman</title>
-<meta name="description" content="An intellectual property law office in southern California. Ido Tuchman is a patent attorney admitted to practice in California, New York, and Colorado, and before the U.S. Patent and Trademark Office. Practice areas include patents, trademarks, copyrights, and licensing." />
+<meta name="description" content="An intellectual property law firm in San Diego, CA. Ido Tuchman is a patent attorney admitted to practice in California, New York, and Colorado, and before the U.S. Patent and Trademark Office. Practice areas include patents, trademarks, copyrights, and licensing." />
 <meta name="keywords" content="patents, trademarks, copyrights, intellectual property, attorney, lawyer, law firm, san diego, california" />
 <meta name="author" content="Law Office of Ido Tuchman" />
 <link rel="canonical" href="http://tuchmanlaw.com/" />
 <meta property="og:title" content="{{ page.title }}" />
 <meta property="og:locale" content="en_US" />
 <meta property="og:description" content="{{ page.summary }}" />
-<meta property="og:image" content="https://tuchmanlaw.com/assets/images/{{ page.image }}" />
-<meta property="og:url" content="http://tuchmanlaw.com/" />
+{% if page.image %}
+<meta property="og:image" content="https://tuchmanlaw.com{{ page.image }}" />
+{% else %}
+<meta property="og:image" content="https://tuchmanlaw.com/assets/images/card.png" />
+{% endif %}
+<!-- <meta property="og:url" content="http://tuchmanlaw.com/" /> -->
 <meta property="og:site_name" content="Law Office of Ido Tuchman" />
 <meta name="twitter:card" content="summary_large_image">
 <script type="application/ld+json">
