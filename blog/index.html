@@ -9,7 +9,7 @@ image: /assets/images/card.png
 <div class="full-width bg-light">
   <div class="container">
     <section>
-      {% if site.posts.size <1 %}
+      {% if site.posts.size > 0 %}
       <div class="blog-list-page">
         <div class="blog-list">
           {% for post in site.posts %}
