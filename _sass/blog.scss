@@ -111,7 +111,8 @@
   align-self: center;
 
   h1 {
-    font-size: 2rem;
+    text-align: center;
+    font-size: 4rem;
   }
 }
 
@@ -153,6 +154,12 @@
       "blog-content"
       "blog-sidebar";  
   }
+
+  .no-posts {
+    h1 {
+      font-size: 3rem;
+    }
+  }
   
   .blog-list-page {
     grid-template-columns: auto;
@@ -160,7 +167,6 @@
       "blog-list"
       "blog-sidebar";  
   }
-
   
   .blog-image {
     width: 300px;
@@ -170,6 +176,12 @@
 @media (max-width: $bp-small) {
   .blog-image {
     display: none;
+  }
+
+  .no-posts {
+    h1 {
+      font-size: 2rem;
+    }
   }
 
   .blog-content {
