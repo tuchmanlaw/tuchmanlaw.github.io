@@ -6,8 +6,10 @@ layout: default
   <div class="container">
     <section>
       <div class="blog-main">
-        {% if post.image %}
+        {% if page.image %}
           <img src="{{ page.image }}" alt="Blog Image" class="blog-img">
+        {% else %}
+          <img src="/assets/typewriter.png" alt="Post Image" class="blog-img">
         {% endif %}
         <div class="blog-content">
           <h1 class="title">{{ page.title }}</h1>
@@ -18,7 +20,7 @@ layout: default
           <div class="side-section">
             <p class="side-heading">Tags</p>
             {% for tag in page.tags %}
-              <a href="/tags/{{ tag }}/" class="tag">{{ tag | capitalize }}</a>
+              <a href="/blog/tags/{{ tag }}/" class="tag">{{ tag | capitalize }}</a>
             {% endfor %}
           </div>
           <div class="side-section">

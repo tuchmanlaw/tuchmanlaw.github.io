@@ -3,7 +3,7 @@
   grid-template-columns: auto 250px;
   column-gap: 30px;
   grid-template-areas: 
-    "blog-img ."
+    "blog-img blog-sidebar"
     "blog-content blog-sidebar";
   margin-top: 2rem;
 }

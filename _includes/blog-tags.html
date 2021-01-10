@@ -1,0 +1,5 @@
+<p class="side-heading">Tags</p>
+{% assign tags = site.tags | sort %}
+{% for tag in tags %}
+  <a href="/blog/tags/{{ tag[0] }}/" class="tag">{{ tag[0] | capitalize }}</a>
+{% endfor %}
