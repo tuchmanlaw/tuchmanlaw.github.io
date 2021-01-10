@@ -66,6 +66,7 @@
   grid-template-areas:
     "blog-list blog-sidebar";
   margin-top: 2rem;
+  min-height: 100vh;
 }
 
 .blog-sidebar {
@@ -122,6 +123,10 @@
   justify-content: flex-start;
   margin-bottom: 4rem;
 
+  a {
+    color: $clr-text-dark;
+  }
+
   h2 {
     font-size: 2rem;
   }
@@ -137,7 +142,7 @@
 }
 
   
-.tag {
+a.tag {
   padding: 4px 16px;
   background-color: $clr-primary;
   color: #fff;

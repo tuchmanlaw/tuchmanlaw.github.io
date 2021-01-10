@@ -4,7 +4,7 @@ author: Ido Tuchman
 title: How to Review a Utility Patent Application
 summary: You just received an email from a lawyer asking you to review an attached patent application draft. You're not a lawyer and are not familiar with the legal requirements for a patent application. What kind of feedback is the lawyer looking for? How do you give meaningful feedback quickly?
 image: /assets/microscope.png
-tags: patents trademarks copyrights ip chickens potatoes spencer
+tags: patents
 published: true
 ---
 You just received an email from a lawyer asking you to review an attached patent application draft. You're not a lawyer and are not familiar with the legal requirements for a patent application. What kind of feedback is the lawyer looking for? How do you give meaningful feedback quickly?
