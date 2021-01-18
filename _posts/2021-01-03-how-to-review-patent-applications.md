@@ -18,13 +18,13 @@ When reviewing the application, be focused and detail oriented. Errors in the ap
 
 # The review process
 A utility patent application usually includes the following sections:
-1. Title
-2. Background
-4. Summary of the invention
-5. Brief description of the drawings
-6. Detailed description
-7. Claims
-8. Abstract
+* Title
+* Background
+* Summary of the invention
+* Brief description of the drawings
+* Detailed description
+* Claims
+* Abstract
 
 The exact phrasing of each section may differ slightly. Other sections, such as "Cross-reference to related applications" and "Statement regarding federally sponsored research" may be included if applicable. Provisional applications do not require claims and the claims section is typically omitted in provisional applications.
 

@@ -1,0 +1,41 @@
+---
+layout: default
+title: Law Office of Ido Tuchman
+summary: An intellectual property law office in southern California. Ido Tuchman is a patent attorney admitted to practice in California, New York, and Colorado, and before the U.S. Patent and Trademark Office. Practice areas include patents, trademarks, copyrights, and licensing.
+image: /assets/images/card.png
+tag: trademarks
+---
+<!-- https://charliepark.org/tags-in-jekyll/ -->
+{% include navigation.html %}
+<div class="full-width bg-light">
+  <div class="container">
+    <section>
+      {% if site.posts.size > 0 %}
+      <div class="blog-list-page">
+        <div class="blog-list">
+          {% for post in site.posts %}
+            {% if post.tags contains page.tag %}
+              {% include blog-post.html %}
+            {% endif %}
+          {% endfor %}
+        </div>
+
+        <div class="blog-sidebar">
+          <div class="side-section">
+            {% include blog-tags.html %}
+          </div>
+          <div class="side-section">
+            {% include blog-subscribe.html %}
+          </div>
+        </div>
+      </div>
+      {% else %}
+      <div class="no-posts">
+        <img src="/assets/binoculars.png" alt="Missing Posts">
+        <h1>There doesn't seem to be anything here.</h1>
+      </div>
+      {% endif %}
+    </section>
+  </div>
+</div>
+{% include footer.html %}
