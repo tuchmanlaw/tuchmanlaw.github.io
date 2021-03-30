@@ -17,7 +17,7 @@ Common law trademark rights are based on a first-to-use system. A business first
 The TM symbol is used next to marks related to goods. The SM symbol is used next to marks related to services. Many people are unfamiliar with the SM symbol and it is commonplace to see TM symbols used for marks related to services. If you use TM next to a mark identifying a service, your trademark rights will not be diminished and trademark police will not break down your door. However, you may receive a stern eyebrow-raising from a pedantic lawyer like myself.
 
 # The Ⓡ symbol
-The R in a circle symbol indicates federal registration of a trademark. In the United States, a trademark owner may use Ⓡ symbol next to a mark only if the mark:
+The R in a circle symbol indicates federal registration of a trademark. In the United States, a trademark owner may use the Ⓡ symbol next to a mark only if the mark:
 
 1. is registered with the U.S. Patent and Trademark Office; and
 2. is used to identify the goods or services listed in the trademark registration.
